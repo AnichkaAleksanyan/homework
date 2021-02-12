@@ -5,6 +5,8 @@ class Person:
 		self.name = name
 		self.surname = surname
 		self.year_of_birth = year_of_birth
+	def print__info(self):
+		print(p1.name,p1.surname,p1.year_of_birth)	
 
 p1 = Person("Petros","Petrosyan",1990)	
 
@@ -14,6 +16,8 @@ class Car:
 		self.model = model
 		self.engine = engine
 		self.color = color
+	def print__info(self):
+	print(c1.model.c1.engine,c1.color)	
 c1 = Car("BMW",2,"red")	
 
 
